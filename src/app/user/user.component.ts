@@ -13,6 +13,8 @@ export class UserComponent implements OnChanges, OnInit, DoCheck,
 
   @Input() myText: string;
 
+  viewChildText = 'Text for viewchild in user(child) component';
+
   constructor() {
     console.log('user constructor console');
   }
